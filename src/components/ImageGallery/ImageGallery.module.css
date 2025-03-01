@@ -1,0 +1,11 @@
+.images {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  .images li {
+    width: calc((100% - 3 * 10px) / 4);
+    overflow: hidden;
+  }

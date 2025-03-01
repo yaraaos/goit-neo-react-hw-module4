@@ -1,0 +1,19 @@
+.wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .btn {
+    padding: 10px 20px;
+    background-color: rgb(11, 11, 86);
+    font-weight: 500;
+    color: white;
+    border: 1px solid rgb(11, 11, 86);
+    border-radius: 8px;
+    font-size: 16px;
+    transition: all ease-in 300ms;
+  }
+  .btn:hover {
+    background-color: white;
+    color: rgb(11, 11, 86);
+  }
